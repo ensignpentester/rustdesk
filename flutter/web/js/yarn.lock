@@ -772,10 +772,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"libsodium@npm:^0.7.0, libsodium@npm:^0.7.9":
+"libsodium@npm:^0.7.0":
   version: 0.7.9
   resolution: "libsodium@npm:0.7.9"
   checksum: 1c922c9972cf97ddb7207ee4f810dd291e0610dd57ea0e47f2343968392546aaa629945a2fb39ae5f19d067f6ed0bb7330f32cc9a680a847a662e9a210ce7bfb
+  languageName: node
+  linkType: hard
+
+"libsodium@npm:^0.7.13":
+  version: 0.7.13
+  resolution: "libsodium@npm:0.7.13"
+  checksum: 75a5f70e84c197d54d9b67dcbd852abbd41cca8facd510767c7c8400a52a23da293e83eebf1693831b2c0c0498f266bd9350a8c27ec66f46a055890dff758d38
   languageName: node
   linkType: hard
 
@@ -1367,7 +1374,7 @@ __metadata:
 
 "typescript@patch:typescript@^4.4.4#~builtin<compat/typescript>":
   version: 4.5.4
-  resolution: "typescript@patch:typescript@npm%3A4.5.4#~builtin<compat/typescript>::version=4.5.4&hash=bda367"
+  resolution: "typescript@patch:typescript@npm%3A4.5.4#~builtin<compat/typescript>::version=4.5.4&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
@@ -1441,7 +1448,7 @@ __metadata:
   resolution: "web_hbb@workspace:."
   dependencies:
     fast-sha256: ^1.3.0
-    libsodium: ^0.7.9
+    libsodium: ^0.7.13
     libsodium-wrappers: ^0.7.9
     pcm-player: ^0.0.11
     ts-proto: ^1.101.0
